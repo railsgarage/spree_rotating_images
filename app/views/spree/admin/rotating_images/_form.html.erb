@@ -1,0 +1,23 @@
+<div class="row">
+  <div class="col-md-12">
+
+    <%= form.field_container :title, class: ['form-group'] do %>
+      <%= form.label :name, Spree.t(:name) %> <span class="required">*</span><br />
+      <%= form.text_field :name, :class => 'form-control name' %>
+      <%= form.error_message_on :name %>
+    <% end %>
+
+    <%= form.field_container :title, class: ['form-group'] do %>
+      <%= form.label :page, Spree.t(:page) %> <span class="required">*</span><br />
+      <%= form.text_field :page, :class => 'form-control page' %>
+      <%= form.error_message_on :page %>
+    <% end %>
+
+    <%= form.field_container :title, class: ['form-group'] do %>
+      <%= form.label :image, Spree.t(:image) %> <span class="required">*</span><br />
+      <%= form.file_field :image, :class => 'form-control image' %>
+      <%= form.error_message_on :image %>
+    <% end %>
+
+  </div>
+</div>
