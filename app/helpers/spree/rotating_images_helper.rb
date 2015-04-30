@@ -9,7 +9,7 @@ module Spree
       else
         images = nil
       end
-      images.inject('') { |string, image| string += "<li><img src='#{image.image.url}'></li>" }.html_safe
+      images.inject('') { |string, image| string += "<li><img src='#{image.image.url}'></li>" }.html_safe rescue []
     end
 
   end
