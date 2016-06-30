@@ -14,6 +14,12 @@
     <% end %>
 
     <%= form.field_container :title, class: ['form-group'] do %>
+      <%= form.label :link, Spree.t(:link) %> <span class="required">*</span><br />
+      <%= form.text_field :link, :class => 'form-control link' %>
+      <%= form.error_message_on :link %>
+    <% end %>
+
+    <%= form.field_container :title, class: ['form-group'] do %>
       <%= form.label :image, Spree.t(:image) %> <span class="required">*</span><br />
       <%= form.file_field :image, :class => 'form-control image' %>
       <%= form.error_message_on :image %>
