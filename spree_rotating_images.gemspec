@@ -3,8 +3,8 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_rotating_images'
   s.version     = '4.0.0'
-  s.summary     = 'TODO: Add gem summary here'
-  s.description = 'TODO: Add (optional) gem description here'
+  s.summary     = 'rotating images'
+  s.description = 'rotating images for spree store'
   s.required_ruby_version = '>= 2.0.0'
 
   s.authors     = [ 'Tim Hogg' ]
