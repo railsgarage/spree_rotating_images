@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_rotating_images'
-  s.version     = '4.0.5'
+  s.version     = '4.0.6'
   s.summary     = 'rotating images'
   s.description = 'rotating images for spree store'
   s.required_ruby_version = '>= 2.0.0'
