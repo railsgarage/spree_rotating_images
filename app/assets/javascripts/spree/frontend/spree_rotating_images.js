@@ -4,6 +4,7 @@ $(function() {
   $('.rotating-images').lightSlider({
     auto: true,
     loop: true,
-    pauseOnHover: true
+    pauseOnHover: true,
+    autoWidth: true
   });
 });
