@@ -1,8 +1,9 @@
 //= require 'slider'
 
 $(function() {
-  $('.rotating-images').responsiveSlides({
+  $('.rotating-images').lightSlider({
     auto: true,
-    nav: true
+    loop: true,
+    pauseOnHover: true
   });
 });

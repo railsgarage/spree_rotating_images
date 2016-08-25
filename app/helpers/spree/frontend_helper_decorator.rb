@@ -20,7 +20,9 @@ Spree::FrontendHelper.module_eval do
       images = nil
 
     end
-    images.inject('') { |string, image| string += "<li><a href='#{image.link}'><img src='#{image.image.url}'></a></li>" }.html_safe rescue nil
+    images.inject('') do |string, image|
+        string += "<li><a href='#{image.link}'><img src='#{image.image.url}'></a></li>"
+    end.html_safe rescue nil
   end
 
 end
