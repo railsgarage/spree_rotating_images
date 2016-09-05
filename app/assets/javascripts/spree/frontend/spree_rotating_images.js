@@ -5,6 +5,10 @@ $(function() {
     auto: true,
     loop: true,
     pauseOnHover: true,
-    autoWidth: true
+    autoWidth: true,
+    item: 1,
+    slideMargin: 0,
+    adaptiveHeight: true,
+    speed: 1000
   });
 });

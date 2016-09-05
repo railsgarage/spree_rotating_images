@@ -20,9 +20,15 @@ Spree::FrontendHelper.module_eval do
       images = nil
 
     end
-    images.inject('') do |string, image|
+
+    images = images.inject('') do |string, image|
         string += "<li><a href='#{image.link}'><img src='#{image.image.url}'></a></li>"
     end.html_safe rescue nil
+
+    content_tag :ul, class: 'rotating-images' do
+      images
+    end
+
   end
 
 end

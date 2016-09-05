@@ -1,7 +1,0 @@
-<!-- insert_top "[data-hook='body'] .container" -->
-
-<div class='row' data-hook='rotating-images'>
-  <div class='col-sm-12'>
-    <%= render partial: 'spree/shared/rotating_images' %>
-  </div>
-</div>
