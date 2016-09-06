@@ -8,7 +8,6 @@ $(function() {
     autoWidth: true,
     item: 1,
     slideMargin: 0,
-    adaptiveHeight: true,
-    speed: 1000
+    pause: 10000
   });
 });
